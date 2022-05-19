@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffeed0;
+  background-size: cover;
+  color: #ffeed0;
+  align-items: center;
+  justify-items: center;
+  font-family: "Quicksand";
+  color: #2A293E;
+  
+}
+Add a black background color to the top navigation .topnav {
+  border-radius: 15px;
+  background-color: #20545e;
+  overflow: hidden;
+  flex: 1;
+}
+h2 {
+  color: #20545e;
+}
+
+.topnav a {
+  float: right;
+  color: #ffeed0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.whale-header-segment:not(.whale-header-circle):hover {
+  background-color: #579681;
+  border: 3px solid #579681;
+  color: #f8f4e5;
+}
+
+.topnav a.active {
+  background-color: #20545e;
+  color: #ffeed0;
+}
+.logo {
+  height: 140px;
+  width: 170px;
+  top: 4%;
+  left: 10%;
+}
+.tmptop {
+  display: flex;
+  width: 100%;
+}
+
+.whale-header {
+  display: flex;
+  width: 800px;
+  margin: auto;
+  font-size: 1.1em;
+}
+
+.whale-header-left {
+  margin-left: auto;
+}
+
+.whale-header-right {
+  margin-right: auto;
+  flex-direction: row-reverse;
+}
+
+.whale-header-left,
+.whale-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.whale-header-segment {
+  background-color: #20545e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  border: 3px solid #20545e;
+  border-color: #ffeed0;
+  box-sizing: border-box;
+}
+
+.whale-header-left .whale-header-segment {
+  border-top-left-radius: 15px 50%;
+  border-bottom-left-radius: 15px 50%;
+  margin-right: -20px;
+  padding: 10px 40px 10px 20px;
+}
+.whale-header-right .whale-header-segment {
+  border-top-right-radius: 15px 50%;
+  border-bottom-right-radius: 15px 50%;
+  margin-left: -20px;
+  padding: 10px 20px 10px 40px;
+}
+
+.whale-header-segment a {
+  color: #f8f4e5;
+  text-decoration: none;
+}
+
+.whale-header-circle {
+  background-color: #ffeed0;
+  border: none;
+}
+.whale-header-left .whale-header-circle {
+  margin-right: -40px;
+}
+.whale-header-right .whale-header-circle {
+  margin-left: -40px;
+}
+
+.whale-header-mid {
+  z-index: 10;
+}
+/* 
+* Design by Robert Mayer:https://goo.gl/CJ7yC8
+*
+*I intentionally left out the line that was supposed to be below the subheader simply because I don't like how it looks.
+*
+* Chronicle Display Roman font was substituted for similar fonts from Google Fonts.
+*/
+
+body {
+  background-color: #fdf1ec;
+}
+
+.wrapper {
+  height: 600px;
+  width: 1000px;
+  margin: 50px auto;
+  border-radius: 7px 7px 7px 7px;
+  /* VIA CSS MATIC https://goo.gl/cIbnS */
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  background-color: whitesmoke;
+}
+
+.product-img {
+  float: left;
+  height: 500px;
+  width: 450px;
+}
+
+.product-img img {
+  border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+  float: left;
+  height: 300px;
+  width: 400px;
+  border-radius: 0 7px 10px 7px;
+  /* background-color: whitesmoke; */
+
+}
+
+.product-text {
+  height: 600px;
+  width: 500px;
+  left: 500px;
+}
+
+.product-text h1 {
+  margin: 0 0 0 38px;
+  padding-top: 52px;
+  font-size: 34px;
+  color: #474747;
+  text-align: left;
+}
+
+.product-text h1,
+.product-price-btn p {
+  font-family: "Bentham", serif;
+}
+
+.product-text h2 {
+  margin: 0 0 47px 38px;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  letter-spacing: 0.2em;
+}
+
+.product-text p {
+  height: 125px;
+  margin: 0 0 0 38px;
+  font-family: "Playfair Display", serif;
+  color: #000000;
+  line-height: 1.7em;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+
+span {
+  display: inline-block;
+  height: 50px;
+  font-family: "Suranna", serif;
+  font-size: 34px;
+}
+
+
